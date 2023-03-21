@@ -1,4 +1,4 @@
-var xhr = new XMLHttpRequest; 
+var xhr = new XMLHttpRequest(); 
 
 xhr.open('GET', 'https://restcountries.com/v3.1/all')
 xhr.responseType = 'json';
@@ -18,7 +18,7 @@ xhr.onload = function()
 } // flag of the countries
 
 
-var xhr = new XMLHttpRequest; 
+var xhr = new XMLHttpRequest(); 
 
 xhr.open('GET', 'https://restcountries.com/v3.1/all')
 xhr.responseType = 'json';
@@ -37,7 +37,7 @@ xhr.onload = function()
 
 } // regions
 
-var xhr = new XMLHttpRequest; 
+var xhr = new XMLHttpRequest(); 
 
 xhr.open('GET', 'https://restcountries.com/v3.1/all')
 xhr.responseType = 'json';
@@ -56,7 +56,7 @@ xhr.onload = function()
 
 } // sub region
 
-var xhr = new XMLHttpRequest; 
+var xhr = new XMLHttpRequest(); 
 
 xhr.open('GET', 'https://restcountries.com/v3.1/all')
 xhr.responseType = 'json';
