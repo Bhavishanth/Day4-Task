@@ -1,4 +1,4 @@
-var xhr = new XMLHttpRequest;
+var xhr = new XMLHttpRequest();
 
 xhr.open('GET', 'https://restcountries.com/v3.1/all')
 xhr.responseType = 'json';
